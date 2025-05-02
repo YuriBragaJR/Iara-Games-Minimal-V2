@@ -308,20 +308,6 @@ footer {
         margin: 0px;
     }
 
-    h1 {
-        font-size: 4vmin;
-    }
-    h2 {
-        font-size: 3.5vmin;
-    }
-    p {
-        font-size: 2.5vmin;
-    }
-    a {
-        font-size: 2.2vmin;
-    }
-
-    input, label, 
 }
 
 @media (max-width: 768px) {
