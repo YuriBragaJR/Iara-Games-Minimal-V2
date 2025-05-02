@@ -319,23 +319,27 @@ footer {
     }
 
     h2 {
-        font-size: 4vmin;
+        font-size: 5.3vmin;
     }
     
     p {
-        font-size: 2.7vmin;
+        font-size: 3.3vmin;
     }
 
     a {
-        font-size: 2.3vmin;
+        font-size: 2.4vmin;
     }
 
     .hero-div {
         display: block;
     }
 
+    .sobre-nos-h2 {
+        font-size: 5vmin;
+    }
+
     .hero-aside {
-        width: 85%;
+        width: 70%;
         justify-self: center;
         transform: translateY(-80px);
     }
@@ -347,8 +351,8 @@ footer {
         transform: translateY(-60px);
     }
 
-    .icon {
-        font-size: 6vmin;
+    .icon-box {
+        font-size: 7vmin;
     }
 
     .campo-pesquisa {
@@ -356,14 +360,22 @@ footer {
     }
 
     .logo {
-        padding: 2px 10px;
-        height: 6vmin;
+        padding: 2px 5px;
+        height: 7vmin;
     }
 
     .menu-nav2 {
-        padding: 3px 10px;
+        padding: 3px 5px;
+        gap: 7px;
     }
     
+    .section-sobre-nos {
+        padding: 20px;
+    }
+
+    #rede-social {
+        font-size: 7vmin;
+    }
 
 
 }
