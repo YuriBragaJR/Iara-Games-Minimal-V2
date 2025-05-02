@@ -302,12 +302,17 @@ footer {
 
 
 /* merida querie */
+@media (max-width:1323px) {
+    main, header {
+        margin: 0px 5%;
+    }
+}
 
-@media (max-width:1080px) {
+
+@media (max-width:1024px) {
     body {
         margin: 0px;
     }
-
 
     main, header {
         margin: 0px 0.5%; 
@@ -349,6 +354,10 @@ footer {
         width: 150px;
         height: 100px;
         transform: translateY(-60px);
+    }
+
+    .box-name {
+        font-size: 3vmin;
     }
 
     .icon-box {
