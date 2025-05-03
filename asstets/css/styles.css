@@ -121,7 +121,7 @@ a {
 
 .logo {
     padding: 3px 30px;
-height: 8vmin;
+    height: 5vmin;
 }
 
 .menu-nav2 {
@@ -366,22 +366,5 @@ footer {
         height: 4.3vmin;
     }
 
-    .logo {
-        padding: 2px 5px;
-        height: 7vmin;
-    }
-
-    .menu-nav2 {
-        padding: 3px 5px;
-        gap: 7px;
-    }
-    
-    .section-sobre-nos {
-        padding: 20px;
-    }
-
-    #rede-social {
-        font-size: 7vmin;
-    }
 
 }
