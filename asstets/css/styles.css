@@ -152,6 +152,7 @@ a {
 .hero-div {
     padding: 3px 30px;
     display: flex;
+    height: 50vh;
     gap: 10%;
     justify-content: space-evenly;
     background-color: var(--color-001);
@@ -169,14 +170,14 @@ h1 {
 }
 
 .hero-aside {
-    width: 100%;
+    width: 70%;
     padding: 3px;
 }
 
 .hero-svg {
     padding: 3px;
-    margin: 5px 0px 45px; 
-    width: 300px;
+    margin: 5px; 
+    width: 80%;
 }
 
 .hero-article {
