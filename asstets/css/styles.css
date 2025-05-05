@@ -46,7 +46,7 @@ body {
 }
 
 main, header {
-    margin: 0px 15%;
+    margin: 0px 10%;
 }
 
 h1 {
@@ -65,22 +65,22 @@ a {
     font-size: 4vmin;
 }
 
+.div-pesquisar {
+    padding: 3px 0px 5px;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    background-color: var(--color-011);
+}
+
 .lupa {
     transform: translateX(27px);
     color: var(--color-005);
     font-size: 1.6vmin;
 }
 
-.div-top {
-    padding: 3px;
-    display: flex;
-    justify-content: start;
-    background-color: var(--color-011);
-}
-
 .pesquisar {
     padding: 3px 10px;
-    align-self: center;
 }
 
 .campo-pesquisa {
@@ -111,7 +111,7 @@ a {
     cursor: pointer;
 }
 
-.nav2 {
+.nav {
     padding: 3px;
     display: flex;
     align-items: center;
@@ -121,10 +121,10 @@ a {
 
 .logo {
     padding: 3px 30px;
-    height: 5vmin;
+    height: 9vmin;
 }
 
-.menu-nav2 {
+.menu-nav {
     padding: 3px 30px;
     display: flex;
     align-items: center;
@@ -152,12 +152,14 @@ a {
 .hero-div {
     padding: 3px 30px;
     display: flex;
+    gap: 10%;
+    justify-content: space-evenly;
     background-color: var(--color-001);
 }
 
 .hero-section {
     align-self: center;
-    margin: 3px 0px 80px;
+    margin: 3px 0px 50px;
     padding: 3px;
 }
 
@@ -173,6 +175,8 @@ h1 {
 
 .hero-svg {
     padding: 3px;
+    margin: 5px 0px 45px; 
+    width: 300px;
 }
 
 .hero-article {
@@ -197,6 +201,7 @@ h1 {
     align-content: center;
     transform: translateY(-80px);
     transition: var(--transition);
+    border-radius: 3px;
 }
 
 .box a {
@@ -299,7 +304,7 @@ footer {
 
 
 
-/* merida querie */
+/* 
 @media (max-width:1323px) {
     main, header {
         margin: 0px 5%;
@@ -308,6 +313,19 @@ footer {
 
 
 @media (max-width:1024px) {
+
+    .menu-nav{
+        display: none;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
     body {
         margin: 0px;
     }
@@ -330,7 +348,7 @@ footer {
     }
 
     a {
-        font-size: 2.4vmin;
+        font-size: 2.2vmin;
     }
 
     .hero-div {
@@ -367,4 +385,4 @@ footer {
     }
 
 
-}
+} */
